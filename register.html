@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Authentication App</title>
+    </head>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        body{
+	color: #100;
+  font-family: "Bell MT", "Bold", monospace;
+}
+
+button {
+  background-color: #FFFFFF; /* Black */
+  border: none;
+  color: #247;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  transform: translateY(-10px);
+  color: black;
+}
+img {
+  height: 12%;
+  width: 12%;
+}
+
+    </style>
+    <body style="background-color: silver;">
+      <Body background="https://c4.wallpaperflare.com/wallpaper/616/987/635/one-piece-anime-manga-wallpaper-preview.jpg"></Body>
+        <header>
+          <h1>
+            <center>
+              Registration Desk
+            </center>
+          </h1>  
+        </header>
+        <right>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX2ftAdey5IslML67_QaIh8nWAq8-cHZsnAQ&usqp=CAU" alt="Registration Desk">
+        </right>
+        <div class="login">
+            <form>
+                <label id="username"><b>Enter Username</b></label>
+                <input type="text" placeholder="Username" id="Username" required>
+                <br>
+                <br>
+                <label id="password"><b>Enter Passcode</b></label>
+                <input type="password" placeholder="passcode" id="Passcode" required minlength="4" maxlength="12">
+                <br>
+                <br>
+                <!--
+                <label id="password">Retype Passcode</label>
+                <input type="password" placeholder="passcode" id="Passcode" required minlength="4" maxlength="12">
+                <br> <br>  
+-->
+                <!--<input type = "password" id = "pswd" value = ""> 
+                <span id = "message" style="color:red"> </span> <br><br>-->
+                <button><b>Sign Up with Google</b></button> <button><b>Sign Up with LinkedIn</b></button> <button><b>Sign Up with GitHub</b></button>
+                <br> <br> <br> <br><br> <br><br> <br>
+                <input type = "submit" value = "Submit">    
+                <!--<button type = "reset" value = "Reset" >Reset</button> --> 
+            </form>
+        </div>
+        <footer>
+          &copy; <b>Akatsuki 2023</b>
+        </footer>
+    <!--
+        <script>  
+          function verifyPassword() {  
+            var pw = document.getElementById("pswd").value;  
+            //check empty password field  
+            if(pw == "") {  
+               document.getElementById("message").innerHTML = "**Fill the password please!";  
+               return false;  
+            }  
+             
+           //minimum password length validation  
+            if(pw.length < 8) {  
+               document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";  
+               return false;  
+            }  
+            
+          //maximum length of password validation  
+            if(pw.length > 15) {  
+               document.getElementById("message").innerHTML = "**Password length must not exceed 15 characters";  
+               return false;  
+            } else {  
+               alert("Password is correct");  
+            }  
+          }  
+          </script>  
+      -->     
+    </body>
+</html>
